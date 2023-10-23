@@ -1,0 +1,164 @@
+.side-app {
+    padding: 0px 30px 0 30px;
+
+    .card {
+        position: relative;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: 5px;
+
+        .card-body {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            margin: 0;
+            position: relative;
+
+            .header-img-card {
+                margin-bottom: 12px;
+            }
+            
+            h5, .h5 {
+                font-size: 1rem;
+            }
+
+            h2, .h2 {
+                font-size: 1.75rem;
+            }
+
+            h3, .h3 {
+                font-size: 1.5rem;
+            }
+
+            h1, .h1 {
+                font-size: 2rem;
+            }
+
+            .fw-semibold {
+                font-weight: 500 !important;
+            }
+
+            .leading-normal {
+                line-height: 1.5 !important;
+                font-size: 14px;
+                margin-bottom: 14px;
+            }
+
+            .btn-primary {
+                color: #fff !important;
+                background: #6259ca !important;
+                border-color: #6259ca !important;
+                font-size: 13px !important;
+            }
+
+            .btn-primary:hover {
+                opacity: 0.8;
+            }
+
+            .btn-secondary {
+                color: #fff !important;
+                background: #fb6b25 !important;
+                font-size: 13px !important;
+            }
+
+            .btn-success {
+                color: #fff !important;
+                background: #13bfa6 !important;
+                border-color: #35b9a6;
+                font-size: 13px !important;
+            }
+
+            .btn-danger {
+                color: #fff;
+                background: #f82649 !important;
+                border-color: #e62a45;
+                font-size: 13px !important;
+            }
+
+            .btn {
+                cursor: pointer;
+                font-weight: 400;
+                letter-spacing: 0.03em;
+                font-size: 0.8125rem;
+                min-width: 2.375rem;
+                display: inline-block;
+                font-weight: 400;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                border: 1px solid transparent;
+                padding: 0.375rem 0.75rem;
+                font-size: 0.9375rem;
+                line-height: 1.84615385;
+                border-radius: 5px;
+                transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+
+            .img-card-text {
+                margin-bottom: 14px;
+                font-size: 14px;
+            }
+
+        }
+
+        .card-body:last-child {
+            margin-bottom: 0;
+        }
+
+        .counter-icon {
+            margin-bottom: 1rem;
+            display: inline-flex;
+            width: 4rem;
+            height: 4rem;
+            padding: 1.3rem 1.4rem;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 4rem;
+            justify-content: center;
+        }
+
+        .bg-primary-gradient {
+            background: linear-gradient(to bottom right, #6259ca 0%, rgb(98 89 202 / 60%) 100%) !important;
+        }
+
+        .box-shadow-primary {
+            box-shadow: 0 5px 10px rgb(98 89 202 / 30%);
+        }
+
+        .bg-secondary-gradient {
+            background: linear-gradient(to bottom right, #9070ff 0%, #ff5d9e 100%) !important;
+        }
+
+        .box-shadow-secondary {
+            box-shadow: 0 5px 10px #e4cbfb;
+        }
+
+        .bg-success-gradient {
+            background: linear-gradient(to bottom right, #4be8d4 0%, #129bd2 100%) !important;
+        }
+
+        .box-shadow-success {
+            box-shadow: 0 5px 10px #99daea;
+        }
+
+        .bg-danger-gradient {
+            background-image: linear-gradient(to bottom right, #f1bf64 0%, #f71d36 100%) !important;
+        }
+
+        .box-shadow-danger {
+            box-shadow: 0 5px 10px #efc2c9;
+        }
+    }
+
+}
