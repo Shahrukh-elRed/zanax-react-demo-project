@@ -1,0 +1,90 @@
+.card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid transparent;
+    background-clip: border-box;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 0;
+        position: relative;
+        padding: 25px;
+        color: #0D0C22;
+
+        h4, .h4 {
+            font-size: 1.125rem;
+            margin-bottom: 0.66em;
+            font-family: inherit;
+            font-weight: 400;
+            line-height: 1.1;
+            color: inherit;
+            margin-top: 0;
+        }
+
+        .paragraph {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 14px;
+        }
+
+        .paragraph:not(:last-child) {
+            margin-bottom: 14px;
+        }
+
+        .info-helpful-text {
+            margin-top: 0;
+            margin-bottom: 14px;
+            font-size: 14px;
+        }
+
+        .terms-yes-btn {
+            font-size: 13px;
+            margin-right: 4px;
+            color: #fff !important;
+            background: #6259ca !important;
+            border-color: #6259ca !important;
+        }
+
+        .terms-yes-btn:hover {
+            opacity: 0.8;
+        }
+        
+        .terms-no-btn {
+            font-size: 13px;
+            color: #fff;
+            background: #fb6b25 !important;
+            border: 1px solid transparent;
+        }
+
+        .terms-no-btn:hover {
+            border: 1px solid transparent;
+            color: #fff !important;
+        }
+    }
+
+    .card-body:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.arrow-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+    .list-arrow-item {
+        font-size: 14px;
+    }
+}
