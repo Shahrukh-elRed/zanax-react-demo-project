@@ -11,7 +11,7 @@ const AboutCompany = () => {
     <div className="main-content app-content mt-0">
       <div className="side-app">
         <div className="main-container container-fluid">
-            <PagesCommonHeader />
+            <PagesCommonHeader title="About" />
             <div className="row">
                 <div className="col-lg-12">
                     <div className="card">
@@ -28,7 +28,7 @@ const AboutCompany = () => {
             </div>
             <div className="row">
                 {aboutCompanyMiddleCardData.map(item => 
-                  <AboutCompanyCard key={item.id} title={item.title} subTitle={item.subtitle} description={item.description} viewMoreLink={item.viewMoreLink} /> )}
+                  <AboutCompanyCard key={item.id} title={item.title} subTitle={item.subTitle} description={item.description} viewMoreLink={item.viewMoreLink} /> )}
             </div>
             <div className="row">
                 {ImageCardData.map(item => 

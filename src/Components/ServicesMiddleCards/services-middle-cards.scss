@@ -1,0 +1,87 @@
+.card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 0;
+        position: relative;
+        padding: 25px;
+
+        .feature {
+            .border {
+                position: relative;
+                display: inline-block;
+                width: 3em;
+                height: 3em;
+                line-height: 2em;
+                vertical-align: middle;
+                padding-top: 8px;
+                border-radius: 7px;
+                font-size: 1.33333333em;
+                border: 1px solid #eaedf1 !important;
+                padding: 0.75rem;
+            }
+
+            .bg-primary {
+                color: #fff !important;
+                background: #6259ca !important;
+                // font-size: 20px !important;
+            }
+
+            .bg-warning {
+                background: #f7b731 !important;
+                --bs-bg-opacity: 1;
+            }
+
+            .bg-pink {
+                background: #fc5296 !important;
+                color: #fff !important;
+            }
+
+            .bg-danger {
+                background: #f82649 !important;
+                --bs-bg-opacity: 1;
+            }
+
+            .bg-purple {
+                background: #8927ec !important;
+                color: #fff !important;
+            }
+
+            .bg-success {
+                background: #09ad95 !important;
+                --bs-bg-opacity: 1;
+            }
+        }
+
+        .fw-semibold {
+            font-weight: 500 !important;
+        }
+
+        h4, .h4 {
+            font-size: 1.125rem;
+            margin-bottom: 0.66em;
+            font-family: inherit;
+            line-height: 1.1;
+            color: inherit;
+            margin-top: 0;
+        }
+
+        .description-text-middle {
+            font-size: 14px;
+        }
+    }
+}

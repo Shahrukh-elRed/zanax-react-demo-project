@@ -4,7 +4,8 @@ import RocketIcon from "./assets/svg/rocket-icon.svg";
 import DocsIcon from "./assets/svg/docs-icon.svg";
 import TrendingUp from "./assets/svg/trending-up.svg";
 
-export const termsCardData = [{
+export const termsCardData = [
+    {
         id: "1",
         titleText: "Welcome to Zanex",
         description: "I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences",
@@ -43,7 +44,8 @@ export const termsCardData = [{
     },
 ]
 
-export const aboutCompanyMiddleCardData = [{
+export const aboutCompanyMiddleCardData = [
+    {
         title: "Why Zanex ?",
         id: "1",
         subTitle: "majority have suffered alteration in some form, by injected humour",
@@ -59,7 +61,8 @@ export const aboutCompanyMiddleCardData = [{
     },
 ]
 
-export const ImageCardData = [{
+export const ImageCardData = [
+    {
         id: "1",
         imageUrl: DummyImage,
         header: "Company history",
@@ -93,7 +96,8 @@ export const ImageCardData = [{
     },
 ]
 
-export const aboutTopBarData = [{
+export const aboutTopBarData = [
+    {
         id: "1",
         cardIconColor: "primary",
         iconImageUrl: PeopleIcon,
@@ -120,5 +124,137 @@ export const aboutTopBarData = [{
         iconImageUrl: TrendingUp,
         header: "Total Employees",
         totalCount: "2569"
+    },
+]
+
+export const faqAccordionData = [
+    {
+        question: {id: "headingOne", questionText: "How To Insert All The Plugins?"},
+        answer: {id: "collapseOne", answerText: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS." }
+    },
+    {
+        question: {id: "headingTwo", questionText: "How Can I contact?"},
+        answer: {id: "collapseTwo", answerText: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS." }
+    },
+    {
+        question: {id: "headingThree", questionText: "Can I use this Plugins in Another Template?"},
+        answer: {id: "collapseThree", answerText: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS." }
+    },
+    {
+        question: {id: "headingFour", questionText: "It is Easy to Customizable?"},
+        answer: {id: "collapseFour", answerText: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS." }
+    },
+    {
+        question: {id: "headingFive", questionText: "How can I download This template?"},
+        answer: {id: "collapseFive", answerText: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS." }
+    },
+    {
+        question: {id: "headingSix", questionText: "How Can I Add another page in Template?"},
+        answer: {id: "collapseSix", answerText: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS." }
+    }
+]
+
+export const servicesTopCardsData = [
+    {
+        id: "1",
+        // iconColor: "primary",
+        headerText: "Creative solutions",
+        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+    },
+    {
+        id: "2",
+        // iconColor: "danger-gradient",
+        headerText: "Trace your time",
+        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+    },
+    {
+        id: "3",
+        // iconColor: "success",
+        headerText: "Business FrameWork",
+        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+    },
+    {
+        id: "4",
+        // iconColor: "warning-gradient",
+        headerText: "Shares",
+        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+    }
+]
+
+export const servicesMiddleCardsData = [
+    {
+        id: "1",
+        iconCardColor: "primary",
+        title: "Web design",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    },
+    {
+        id: "2",
+        iconCardColor: "warning",
+        title: "Web Development",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    },
+    {
+        id: "3",
+        iconCardColor: "pink",
+        title: "Wordpress",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    },
+    {
+        id: "4",
+        iconCardColor: "danger",
+        title: "photography",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    },
+    {
+        id: "5",
+        iconCardColor: "purple",
+        title: "Development",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    },
+    {
+        id: "6",
+        iconCardColor: "success",
+        title: "Android",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    },
+]
+
+export const ServicesBottomData = [
+    {
+        id: "1",
+        serviceLabelText: "Web Design",
+        progressBarColor: "purple",
+        progressValue: "50",
+    },
+    {
+        id: "2",
+        serviceLabelText: "Web Development",
+        progressBarColor: "danger",
+        progressValue: "70",
+    },
+    {
+        id: "3",
+        serviceLabelText: "Wordpress",
+        progressBarColor: "warning",
+        progressValue: "80",
+    },
+    {
+        id: "4",
+        serviceLabelText: "Photography",
+        progressBarColor: "primary",
+        progressValue: "75",
+    },
+    {
+        id: "5",
+        serviceLabelText: "Development",
+        progressBarColor: "pink",
+        progressValue: "80",
+    },
+    {
+        id: "6",
+        serviceLabelText: "Android",
+        progressBarColor: "success",
+        progressValue: "69",
     },
 ]
