@@ -7,6 +7,10 @@ import { ImageCardData } from "../../data"
 import AboutTopBarWidget from "../../Components/AboutTopBarWidget/AboutTopBarWidget";
 
 const AboutCompany = () => {
+  const buttonColors = ["primary", "secondary", "success", "danger"];
+  const topBarIcons = [{ cardIconColor: "primary", iconImageUrl: "simple-line-icons:people" }, { cardIconColor: "secondary", iconImageUrl: "simple-line-icons:rocket"}, 
+                       { cardIconColor: "success", iconImageUrl: "simple-line-icons:docs" }, { cardIconColor: "danger", iconImageUrl: "material-symbols:trending-up" }];
+
   return (
     <div className="main-content app-content mt-0">
       <div className="side-app">
@@ -18,8 +22,8 @@ const AboutCompany = () => {
                         <div className="card-body p-3 text-dark">
                             <div className="statistics-info">
                                 <div className="row text-center">
-                                    {aboutTopBarData.map(item => 
-                                      <AboutTopBarWidget key={item.id} cardIconColor={item.cardIconColor} icon={item.iconImageUrl} header={item.header} totalCount={item.totalCount} /> )}
+                                    {aboutTopBarData.map((item, index) => 
+                                      <AboutTopBarWidget key={item.id} cardIconColor={topBarIcons[index].cardIconColor} icon={topBarIcons[index].iconImageUrl} header={item.header} totalCount={item.totalCount} /> )}
                                 </div>
                             </div>
                         </div>
@@ -31,8 +35,8 @@ const AboutCompany = () => {
                   <AboutCompanyCard key={item.id} title={item.title} subTitle={item.subTitle} description={item.description} viewMoreLink={item.viewMoreLink} /> )}
             </div>
             <div className="row">
-                {ImageCardData.map(item => 
-                  <ImageAboutCards key={item.id} imageUrl={item.imageUrl} header={item.header} description={item.description} link={item.link} btnColor={item.btnColor} /> )}
+                {ImageCardData.map((item, index) => 
+                  <ImageAboutCards key={item.id} imageUrl={item.imageUrl} header={item.header} description={item.description} link={item.link} btnColor={item.btnColor} buttonColor={buttonColors[index]} /> )}
             </div>
         </div>
       </div>

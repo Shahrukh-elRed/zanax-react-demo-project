@@ -52,10 +52,7 @@
             }
 
             .text-warning-gradient {
-                text-transform: uppercase;
-                background: linear-gradient(to bottom right, #f66b4e 0%, #fbc434 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                color: #ff9800;
             }
         }
     }

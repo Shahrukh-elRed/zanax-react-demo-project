@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import "./pages-common-header.scss";
-import AddIcon from "../../assets/svg/add-icon.svg";
-import LoginIcon from "../../assets/svg/login-icon.svg";
 import { useLocation } from 'react-router-dom';
+import { Icon } from "@iconify/react";
 
 const PagesCommonHeader = ({ title }) => {
     const location = useLocation();
@@ -20,12 +19,12 @@ const PagesCommonHeader = ({ title }) => {
     <div className="ms-auto pageheader-btn">
         <button onClick={() => console.log("add account")} className="btn btn-primary btn-icon text-white me-2">
             <span>
-                <img src={AddIcon} height="16px" alt="" />
+                <Icon icon="mdi:plus" color="#fff" />
             </span> Add Account
         </button>
         <button onClick={() => console.log("export")} className="btn btn-success btn-icon text-white">
             <span>
-                <img src={LoginIcon} height="16px" alt="" />
+                <Icon icon="fe:login" color="#fff" />
             </span> Export
         </button>
     </div>

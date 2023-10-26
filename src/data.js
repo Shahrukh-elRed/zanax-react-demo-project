@@ -1,8 +1,4 @@
 import DummyImage from "./assets/images/dummy.jpg";
-import PeopleIcon from "./assets/svg/people-icon.svg";
-import RocketIcon from "./assets/svg/rocket-icon.svg";
-import DocsIcon from "./assets/svg/docs-icon.svg";
-import TrendingUp from "./assets/svg/trending-up.svg";
 
 export const termsCardData = [
     {
@@ -68,7 +64,6 @@ export const ImageCardData = [
         header: "Company history",
         description: "I must explain to you how all this mistaken idea of denouncing pleasure and you a complete account of the system",
         link: "/",
-        btnColor: "primary"
     },
     {
         id: "2",
@@ -76,7 +71,6 @@ export const ImageCardData = [
         header: "Company history",
         description: "I must explain to you how all this mistaken idea of denouncing pleasure and you a complete account of the system",
         link: "/",
-        btnColor: "secondary"
     },
     {
         id: "3",
@@ -84,7 +78,6 @@ export const ImageCardData = [
         header: "Company history",
         description: "I must explain to you how all this mistaken idea of denouncing pleasure and you a complete account of the system",
         link: "/",
-        btnColor: "success"
     },
     {
         id: "4",
@@ -92,36 +85,27 @@ export const ImageCardData = [
         header: "Company history",
         description: "I must explain to you how all this mistaken idea of denouncing pleasure and you a complete account of the system",
         link: "/",
-        btnColor: "danger"
     },
 ]
 
 export const aboutTopBarData = [
     {
         id: "1",
-        cardIconColor: "primary",
-        iconImageUrl: PeopleIcon,
         header: "Total Employees",
         totalCount: "2569"
     },
     {
         id: "2",
-        cardIconColor: "secondary",
-        iconImageUrl: RocketIcon,
         header: "Total Employees",
         totalCount: "2569"
     },
     {
         id: "3",
-        cardIconColor: "success",
-        iconImageUrl: DocsIcon,
         header: "Total Employees",
         totalCount: "2569"
     },
     {
         id: "4",
-        cardIconColor: "danger",
-        iconImageUrl: TrendingUp,
         header: "Total Employees",
         totalCount: "2569"
     },
@@ -157,25 +141,21 @@ export const faqAccordionData = [
 export const servicesTopCardsData = [
     {
         id: "1",
-        // iconColor: "primary",
         headerText: "Creative solutions",
         description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
     },
     {
         id: "2",
-        // iconColor: "danger-gradient",
         headerText: "Trace your time",
         description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
     },
     {
         id: "3",
-        // iconColor: "success",
         headerText: "Business FrameWork",
         description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
     },
     {
         id: "4",
-        // iconColor: "warning-gradient",
         headerText: "Shares",
         description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
     }
@@ -184,37 +164,31 @@ export const servicesTopCardsData = [
 export const servicesMiddleCardsData = [
     {
         id: "1",
-        iconCardColor: "primary",
         title: "Web design",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
     },
     {
         id: "2",
-        iconCardColor: "warning",
         title: "Web Development",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
     },
     {
         id: "3",
-        iconCardColor: "pink",
         title: "Wordpress",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
     },
     {
         id: "4",
-        iconCardColor: "danger",
         title: "photography",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
     },
     {
         id: "5",
-        iconCardColor: "purple",
         title: "Development",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
     },
     {
         id: "6",
-        iconCardColor: "success",
         title: "Android",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
     },
@@ -224,37 +198,31 @@ export const ServicesBottomData = [
     {
         id: "1",
         serviceLabelText: "Web Design",
-        progressBarColor: "purple",
         progressValue: "50",
     },
     {
         id: "2",
         serviceLabelText: "Web Development",
-        progressBarColor: "danger",
         progressValue: "70",
     },
     {
         id: "3",
         serviceLabelText: "Wordpress",
-        progressBarColor: "warning",
         progressValue: "80",
     },
     {
         id: "4",
         serviceLabelText: "Photography",
-        progressBarColor: "primary",
         progressValue: "75",
     },
     {
         id: "5",
         serviceLabelText: "Development",
-        progressBarColor: "pink",
         progressValue: "80",
     },
     {
         id: "6",
         serviceLabelText: "Android",
-        progressBarColor: "success",
         progressValue: "69",
     },
 ]

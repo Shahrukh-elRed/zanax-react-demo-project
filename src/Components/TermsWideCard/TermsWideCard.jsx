@@ -1,5 +1,5 @@
 import "./terms-wide-card.scss";
-import ChevronDoubleRight from "../../assets/svg/chevron-double-right.svg"
+import { Icon } from "@iconify/react";
 
 const TermsWideCard = ({ titleText, description, listData }) => {
   return (
@@ -11,7 +11,7 @@ const TermsWideCard = ({ titleText, description, listData }) => {
             {listData.length !== 0 ?  listData.map((item, index) => 
                 <ul key={index} className="arrow-list">
                     <li className="list-arrow-item">             
-                      <img src={ChevronDoubleRight} height="14px" alt="" />
+                      <Icon icon="mdi:chevron-double-right" width="14px" height="14px" />
                       {item}
                     </li>
                 </ul>) : null}
