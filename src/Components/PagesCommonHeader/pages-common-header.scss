@@ -39,6 +39,15 @@
         vertical-align: middle;
         padding: 0.375rem 0.5rem;
         line-height: 1.84615385;
+        display: inline-block;
+        user-select: none;
+        border: 1px solid transparent;
+    }
+
+    .btn-icon {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        text-align: center;
     }
 
     .btn-primary {
