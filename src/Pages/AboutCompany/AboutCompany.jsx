@@ -1,9 +1,8 @@
 import "./about-company.scss";
 import PagesCommonHeader from "../../Components/PagesCommonHeader/PagesCommonHeader";
 import AboutCompanyCard from "../../Components/AboutCompanyCard/AboutCompanyCard";
-import { aboutCompanyMiddleCardData, aboutTopBarData } from "../../data"
+import { aboutCompanyMiddleCardData, aboutTopBarData, ImageCardData } from "../../data"
 import ImageAboutCards from "../../Components/ImageAboutCards/ImageAboutCards";
-import { ImageCardData } from "../../data"
 import AboutTopBarWidget from "../../Components/AboutTopBarWidget/AboutTopBarWidget";
 
 const AboutCompany = () => {
@@ -23,7 +22,8 @@ const AboutCompany = () => {
                             <div className="statistics-info">
                                 <div className="row text-center">
                                     {aboutTopBarData.map((item, index) => 
-                                      <AboutTopBarWidget key={item.id} cardIconColor={topBarIcons[index].cardIconColor} icon={topBarIcons[index].iconImageUrl} header={item.header} totalCount={item.totalCount} /> )}
+                                      <AboutTopBarWidget key={item.id} cardIconColor={topBarIcons[index].cardIconColor} time={2000} delay={10}
+                                        icon={topBarIcons[index].iconImageUrl} header={item.header} totalCount={item.totalCount} /> )}
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,8 @@ const AboutCompany = () => {
             </div>
             <div className="row">
                 {ImageCardData.map((item, index) => 
-                  <ImageAboutCards key={item.id} imageUrl={item.imageUrl} header={item.header} description={item.description} link={item.link} btnColor={item.btnColor} buttonColor={buttonColors[index]} /> )}
+                  <ImageAboutCards key={item.id} imageUrl={item.imageUrl} header={item.header} description={item.description} link={item.link} 
+                    btnColor={item.btnColor} buttonColor={buttonColors[index]} /> )}
             </div>
         </div>
       </div>

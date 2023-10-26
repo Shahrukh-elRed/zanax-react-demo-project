@@ -97,17 +97,17 @@ export const aboutTopBarData = [
     {
         id: "2",
         header: "Total Employees",
-        totalCount: "2569"
+        totalCount: "1765"
     },
     {
         id: "3",
         header: "Total Employees",
-        totalCount: "2569"
+        totalCount: "846"
     },
     {
         id: "4",
         header: "Total Employees",
-        totalCount: "2569"
+        totalCount: "7253"
     },
 ]
 
