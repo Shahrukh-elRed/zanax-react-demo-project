@@ -1,3 +1,5 @@
+import Collapse from 'react-bootstrap/Collapse';
+
 const FaqAccordionSingleCard = ({ question, answer, handleAccordionClick, openAccordion }) => {
     return (
         <>                
@@ -7,11 +9,13 @@ const FaqAccordionSingleCard = ({ question, answer, handleAccordionClick, openAc
                         {question.questionText}
                         </button>
                 </h2>
-                <div id={answer.id} className={`${openAccordion !== question.id ? "accordion-collapse collapse" : "accordion-collapse collapse show"}`} aria-labelledby={question.id} data-bs-parent="#accordionExample">
-                    <div className="accordion-body">
-                        {answer.answerText}
+                <Collapse in={openAccordion === question.id} >
+                    <div id={answer.id} aria-labelledby={question.id} data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
+                            {answer.answerText}
+                        </div>
                     </div>
-                </div>
+                </Collapse>
             </div>
         </>
     )

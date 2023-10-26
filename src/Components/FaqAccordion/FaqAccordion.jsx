@@ -3,7 +3,7 @@ import FaqAccordionSingleCard from "../FaqAccordionSingleCard/FaqAccordionSingle
 import "./faq-accordion.scss";
 
 const FaqAccordion = ({ title, data }) => {
-    const [openAccordion, setOpenAccordion] = useState(0);
+    const [openAccordion, setOpenAccordion] = useState(data[0].question.id);
 
     const handleAccordionClick = (index) => {
         if (index !== openAccordion) {

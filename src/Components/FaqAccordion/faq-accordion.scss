@@ -37,23 +37,22 @@
                 }
             }
 
-            // .accordion-button::after {
-            //     height: 14px;
-            //     content: "\e92d";
-            //     font-family: feather !important;
+            .accordion-button::after {
+                height: 14px;
+                background-image: none;
+                content: url('https://api.iconify.design/feather/chevron-down.svg?height=14');
+                flex-shrink: 0;
+                width: 1.25rem;
+                margin-left: auto;
+                background-repeat: no-repeat;
+                background-size: 1.25rem;
+                transition: transform .2s ease-in-out;
+            }
 
-            //     flex-shrink: 0;
-            //     width: 1.25rem;
-            //     margin-left: auto;
-            //     background-repeat: no-repeat;
-            //     background-size: 1.25rem;
-            //     transition: transform .2s ease-in-out;
-            // }
-
-            // .accordion-button:not(.collapsed)::after {
-            //     background-image: none;
-            //     transform: rotate(-180deg);
-            // }
+            .accordion-button:not(.collapsed)::after {
+                background-image: none;
+                transform: rotate(-180deg);
+            }
 
             .accordion-button:focus {
                 box-shadow: none;
