@@ -1,9 +1,9 @@
 import "./about-company.scss";
-import PagesCommonHeader from "../../Components/PagesCommonHeader/PagesCommonHeader";
-import AboutCompanyCard from "../../Components/AboutCompanyCard/AboutCompanyCard";
-import { aboutCompanyMiddleCardData, aboutTopBarData, ImageCardData } from "../../data"
-import ImageAboutCards from "../../Components/ImageAboutCards/ImageAboutCards";
-import AboutTopBarWidget from "../../Components/AboutTopBarWidget/AboutTopBarWidget";
+import AboutCommonHeader from "./AboutCommonHeader/AboutCommonHeader";
+import AboutCompanyCard from "./AboutCompanyCard/AboutCompanyCard";
+import ImageAboutCards from "./ImageAboutCards/ImageAboutCards";
+import AboutTopBarWidget from "./AboutTopBarWidget/AboutTopBarWidget";
+import { aboutCompanyMiddleCardData, aboutTopBarData, ImageCardData } from "./data";
 
 const AboutCompany = () => {
   const buttonColors = ["primary", "secondary", "success", "danger"];
@@ -14,7 +14,7 @@ const AboutCompany = () => {
     <div className="main-content app-content mt-0">
       <div className="side-app">
         <div className="main-container container-fluid">
-            <PagesCommonHeader title="About" />
+            <AboutCommonHeader title="About" />
             <div className="row">
                 <div className="col-lg-12">
                     <div className="card">

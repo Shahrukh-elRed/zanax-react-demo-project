@@ -1,0 +1,101 @@
+.card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+    border: inherit !important;
+
+    
+    .card-header:first-child {
+        border-radius: 2px 2px 0 0;
+    }
+
+    .card-header {
+        background: none;
+        padding: 1rem 1.5rem;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 0;
+        background-color: transparenrt;
+        border-bottom: 1px solid #eaedf1;
+
+        .card-title {
+            margin-bottom: 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        h3, .h3 {
+            font-family: inherit;
+            line-height: 1.1;
+            color: inherit;
+            margin-top: 0;
+        }
+
+        .card-options {
+            margin-left: auto;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-order: 100;
+            order: 100;
+            margin-right: -0.5rem;
+            color: #9aa0ac;
+            -ms-flex-item-align: center;
+            align-self: center;
+
+            .card-options-collapse {
+                margin-left: 8px;
+                cursor: pointer;
+            }
+
+            .card-options-remove {
+                margin-left: 8px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .card-alert {
+        border-radius: 0;
+        margin: -1px -1px 0;
+    }
+
+    .alert {
+        font-size: 0.9375rem;
+        position: relative;
+        padding: 0.75rem 1.25rem;
+        border: 1px solid transparent;
+    }
+
+    .alert-success {
+        color: #09ad95;
+        background-color: rgba(0, 230, 130, 0.1);
+        border-color: rgb(202, 249, 228);
+    }
+
+    .alert-danger {
+        color: #f82649;
+        background-color: rgba(255, 56, 43, 0.1);
+        border-color: rgb(255, 222, 219);
+    }
+
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 0;
+        position: relative;
+        padding: 25px;
+        font-size: 14px;
+    }
+}

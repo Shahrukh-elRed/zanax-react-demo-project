@@ -1,8 +1,8 @@
-import PagesCommonHeader from "../../Components/PagesCommonHeader/PagesCommonHeader";
-import ServicesTopCards from "../../Components/ServicesTopCards/ServicesTopCards";
-import ServicesMiddleCards from "../../Components/ServicesMiddleCards/ServicesMiddleCards";
-import ServicesBottomCard from "../../Components/ServicesBottomCard/ServicesBottomCard";
-import { servicesMiddleCardsData, servicesTopCardsData, ServicesBottomData } from "../../data";
+import ServicesCommonHeader from "./ServicesCommonHeader/ServicesCommonHeader";
+import ServicesTopCards from "./ServicesTopCards/ServicesTopCards";
+import ServicesMiddleCards from "./ServicesMiddleCards/ServicesMiddleCards";
+import ServicesBottomCard from "./ServicesBottomCard/ServicesBottomCard";
+import { servicesMiddleCardsData, servicesTopCardsData, ServicesBottomData } from "./data";
 import "./services.scss";
 
 const Services = () => {
@@ -18,7 +18,7 @@ const Services = () => {
     <div className="main-content app-content mt-0">
         <div className="side-app">
             <div className="main-container container-fluid">
-                <PagesCommonHeader title="Services" />
+                <ServicesCommonHeader title="Services" />
                 <ServicesTopCards servicesTopCardsData={servicesTopCardsData} topCardsIcons={topCardsIcons} />
                 <ServicesMiddleCards servicesMiddleCardsData={servicesMiddleCardsData} middleCardIcons={middleCardIcons} />
                 <ServicesBottomCard 

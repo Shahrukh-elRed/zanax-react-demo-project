@@ -1,0 +1,156 @@
+.card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+    border: inherit !important;
+
+    
+    .card-header:first-child {
+        border-radius: 2px 2px 0 0;
+    }
+
+    .card-header {
+        background: none;
+        padding: 1rem 1.5rem;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 0;
+        background-color: transparenrt;
+        border-bottom: 1px solid #eaedf1;
+
+        .card-title {
+            margin-bottom: 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        h3, .h3 {
+            font-family: inherit;
+            line-height: 1.1;
+            color: inherit;
+            margin-top: 0;
+        }
+
+        .card-options {
+            margin-left: auto;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-order: 100;
+            order: 100;
+            margin-right: -0.5rem;
+            color: #9aa0ac;
+            -ms-flex-item-align: center;
+            align-self: center;
+
+            .input-group {
+                position: relative;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -ms-flex-align: stretch;
+                align-items: stretch;
+                width: 100%;
+
+                .form-control {
+                    position: relative;
+                    -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+                    width: 1%;
+                    margin-bottom: 0;
+                    min-width: 0;
+                    display: block;
+                    font-weight: 400;
+                    color: #4d5875;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #eaedf1;
+                    border-radius: 7px;
+                    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                    appearance: none;
+                }
+
+                .form-control:focus {
+                    color: #6f6e6e;
+                    background-color: #fff;
+                    outline: 0;
+                    box-shadow: none;
+                    border-color: #eaedf1;
+                }
+
+                .form-control-sm {
+                    padding: 0.25rem 0.5rem;
+                    font-size: 0.875rem;
+                    line-height: 1.14285714;
+                    height: calc(1.5em + 0.5rem + 2px);
+                    min-height: calc(1.5em + .5rem + 2px);
+                }
+
+                input {
+                    outline: none;
+                    border: none;
+                    margin: 0;
+                    font-family: inherit;
+                }
+
+                .input-group-btn {
+                    font-size: 0.9375rem;
+                    border: 0;
+                    margin-left: 0 !important;
+
+                    .btn {
+                        border-radius: 0 4px 4px 0;
+                        height: 100%;
+                        position: relative;
+                        z-index: 2;
+                        font-weight: 400;
+                        letter-spacing: 0.03em;
+                        display: inline-block;
+                        text-align: center;
+                        white-space: nowrap;
+                        vertical-align: middle;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                        border: 1px solid transparent;
+                        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                    }
+
+                    .btn-primary {
+                        color: #fff !important;
+                        background: #6259ca !important;
+                        border-color: #6259ca !important;
+                    }
+
+                    .btn-sm {
+                        font-size: 0.65rem;
+                        min-width: 2.5rem;
+                        padding: 0.35rem 0.5rem;
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+
+        .card-body {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            margin: 0;
+            position: relative;
+            padding: 25px;
+        }
+    }
+}

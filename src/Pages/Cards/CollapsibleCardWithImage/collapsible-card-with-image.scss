@@ -1,0 +1,101 @@
+.card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border-radius: 5px;
+    border: inherit !important;
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+
+    .card-header:first-child {
+        border-radius: 2px 2px 0 0;
+    }
+
+    .border-transparent {
+        border-color: #656a71 !important;
+    }
+
+    .z-index2 {
+        z-index: 2;
+    }
+
+    .card-header {
+        background: none;
+        padding: 1rem 1.5rem;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 0;
+        background-color: transparent;
+        border-bottom: 1px solid #eaedf1;
+
+        .card-title {
+            margin-bottom: 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        h3 {
+            font-family: inherit;
+            line-height: 1.1;
+            margin-bottom: 0.66em;
+        }
+
+        .card-options {
+            margin-left: auto;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-order: 100;
+            order: 100;
+            margin-right: -0.5rem;
+            color: #9aa0ac;
+            -ms-flex-item-align: center;
+            align-self: center;
+
+            .card-options-collapse {
+                margin-left: 8px;
+                cursor: pointer;
+            }
+
+            .card-cons-white {
+                color: #fff;
+            }
+
+            .card-options-remove {
+                margin-left: 8px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 0;
+        position: relative;
+        padding: 25px;
+    }
+}
+
+.card-blog-overlay {
+    background-size: cover;
+}
+
+.card-blog-overlay:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    border-radius: 5px;
+}

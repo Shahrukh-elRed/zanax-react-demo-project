@@ -4,6 +4,7 @@ import Terms from "./Pages/Terms/Terms";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Faq from "./Pages/Faq/Faq";
 import Services from "./Pages/Services/Services";
+import Cards from "./Pages/Cards/Cards";
 
 const Routing = () => {
     return (
@@ -14,6 +15,7 @@ const Routing = () => {
                 <Route path="/pages/terms" element={<Terms />} />
                 <Route path="/pages/faq" element={<Faq />} />
                 <Route path="/pages/services" element={<Services />} />
+                <Route path="/components/cards" element={<Cards />} />
             </Routes>
         </Router >
     )

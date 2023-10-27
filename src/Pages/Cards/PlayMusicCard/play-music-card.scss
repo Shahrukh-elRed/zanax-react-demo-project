@@ -1,0 +1,79 @@
+.card-aside {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.bg-primary {
+    background: #6259ca !important;
+}
+
+.card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 0;
+        position: relative;
+        padding: 25px;
+
+        h4 {
+            font-size: 1.125rem;
+            font-family: inherit;
+            font-weight: 400;
+            line-height: 1.1;
+            color: inherit;
+            margin: 0 0 11.88px !important;
+        }
+
+        .music-card-title {
+            cursor: pointer;
+        }
+
+        .music-card-title:hover {
+            color: #6259ca;
+        }
+
+        .padding-top-icons {
+            padding: 24px 0 0;
+        }
+
+        .text-muted {
+            color: #76839a !important;
+            --bs-text-opacity: 1;
+
+            .icon {
+                text-decoration: none;
+                cursor: pointer;
+                color: #6259ca;
+            }
+
+            .icon:hover {
+                color: #0D0C22;
+            }
+
+            .icon-white {
+                text-decoration: none;
+                cursor: pointer;
+                color: #fff;
+            }
+
+            .ms-3 {
+                margin-left: 1rem !important;
+            }
+        }
+    }
+
+    .card-body:last-child {
+        margin-bottom: 0;
+    }
+}
