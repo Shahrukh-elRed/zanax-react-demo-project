@@ -9,7 +9,7 @@ const CardBlue = ({ title, bodyText, isWide }) => {
     return (
         <div className={`${isWide ? "col-xl-6" : " col-xl-4"} col-md-12`}>
         {showCard ? <div className="card">
-            <div class="card-status bg-blue br-tr-7 br-tl-7"></div>
+            <div className="card-status bg-blue br-tr-7 br-tl-7"></div>
             <div className="card-header">
                 <h3 className="card-title">{title}</h3>
                 <div className="card-options">

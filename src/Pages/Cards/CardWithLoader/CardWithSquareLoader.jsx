@@ -7,11 +7,11 @@ const CardWithSquareLoader = ({ title }) => {
     const [showBody, setShowBody] = useState(true);
 
   return (
-        <div class="col-md-12 col-xl-4">
-            {showCard ? <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">{title}</h3>
-                    <div class="card-options">
+        <div className="col-md-12 col-xl-4">
+            {showCard ? <div className="card">
+                <div className="card-header">
+                    <h3 className="card-title">{title}</h3>
+                    <div className="card-options">
                     <div onClick={() => setShowBody(!showBody)} className="card-options-collapse">
                         <Icon icon={showBody ? "feather:chevron-up" : "feather:chevron-down"} />
                     </div>
@@ -20,9 +20,9 @@ const CardWithSquareLoader = ({ title }) => {
                     </div>
                     </div>
                 </div>
-                {showBody ? <div class="card-body">
-                    <div class="dimmer active">
-                        <div class="spinner"></div>
+                {showBody ? <div className="card-body">
+                    <div className="dimmer active">
+                        <div className="spinner"></div>
                     </div>
                 </div> : null}
             </div> : null}
