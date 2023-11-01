@@ -1,8 +1,10 @@
 import "./alerts.scss";
 import AlertsCommonHeader from "./AlertsCommonHeader/AlertsCommonHeader";
+import AlertWithAvatar from "./AlertWithAvatar/AlertWithAvatar";
 import AlertWithIcon from "./AlertWithIcon/AlertWithIcon";
 import DefaultAlert from "./DefaultAlert/DefaultAlert";
 import LinksInAlert from "./LinksInAlert/LinksInAlert";
+import DummyImage from "./assets/images/dummy.jpg";
 
 const Alerts = () => {
     return (
@@ -53,27 +55,44 @@ const Alerts = () => {
 						</div>
 
                         <div class="row">
-								<div class="col-lg-12">
-									<div class="card">
-										<div class="card-header">
-											<h3 class="card-title">Alert with icon</h3>
-										</div>
-										<div class="card-body">
-											<div class="text-wrap">
-												<p>Add <code class="highlighter-rouge">.alert-icon</code> class.</p>
-												<div class="example">
-                                                    <AlertWithIcon icon="fa:check-circle-o" color="success" text="Well done! You successfully read this important alert message." />
-                                                    <AlertWithIcon icon="fa:bell-o" color="info" text="Heads up! This alert needs your attention, but it's not super important." />
-                                                    <AlertWithIcon icon="fa:exclamation" color="warning" text="Warning! Better check yourself, you're not looking too good." />
-                                                    <AlertWithIcon icon="fa:frown-o" color="danger" text="Oh snap!Change a few things up and try submitting again." />
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Alert with icon</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="text-wrap">
+                                            <p>Add <code class="highlighter-rouge">.alert-icon</code> class.</p>
+                                            <div class="example">
+                                                <AlertWithIcon icon="fa:check-circle-o" color="success" text="Well done! You successfully read this important alert message." />
+                                                <AlertWithIcon icon="fa:bell-o" color="info" text="Heads up! This alert needs your attention, but it's not super important." />
+                                                <AlertWithIcon icon="fa:exclamation" color="warning" text="Warning! Better check yourself, you're not looking too good." />
+                                                <AlertWithIcon icon="fa:frown-o" color="danger" text="Oh snap!Change a few things up and try submitting again." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         
-
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Alert with avatar</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="text-wrap">
+                                            <div class="example">
+                                                <AlertWithAvatar avatarImage={DummyImage} color="primary" 
+                                                    text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit." />
+                                                <AlertWithAvatar avatarImage={DummyImage} color="success" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 					</div>
                 </div>

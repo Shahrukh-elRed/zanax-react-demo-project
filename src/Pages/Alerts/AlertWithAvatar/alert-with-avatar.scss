@@ -1,0 +1,107 @@
+.alert-primary {
+    color: #6259ca;
+    background-color: rgb(98 89 202 / 10%);
+    border-color: rgba(98, 89, 202, 0.01);
+}
+
+.alert-secondary {
+    color: #fb6b25;
+    background-color: #fce9df;
+    border-color: #fce9df;
+}
+
+.alert-success {
+    color: #09ad95;
+    background-color: rgba(0, 230, 130, 0.1);
+    border-color: rgb(202, 249, 228);
+}
+
+.alert-warning {
+    color: #7d6608;
+    background-color: #fcf3cf;
+    border-color: #fbeebc;
+}
+
+.alert-info {
+    color: #24587e;
+    background-color: #daeefc;
+    border-color: #cbe7fb;
+}
+
+.alert-danger {
+    color: #f82649;
+    background-color: rgba(255, 56, 43, 0.1);
+    border-color: rgb(255, 222, 219);
+}
+
+.alert {
+    display: flex;
+    font-size: 0.9375rem;
+    position: relative;
+    padding: 0.75rem 1.25rem 0.75rem 0.75rem !important;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+
+    .av-img-container {
+        display: inline-block;
+
+        .avatar-image {
+            margin-top: -0.25rem;
+            border-radius: 50%;
+            height: 32px;
+            width: 32px;
+            margin-right: 1rem
+        }
+    }
+}
+
+.alert:last-child {
+    font-size: 0.9375rem;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0 !important;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alert-dismissible {
+    .btn-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0.75rem 1.25rem;
+        color: inherit;
+        background-color: transparent;
+        border: 0;
+        -webkit-appearance: none;
+        background-image: none;
+
+        float: right;
+        font-size: 1.40625rem;
+        font-weight: 700;
+        line-height: 1;
+        text-shadow: none;
+        opacity: 0.7;
+        transition: 0.3s color;
+
+        box-sizing: content-box;
+        width: 1em;
+        height: 1em;
+        border-radius: .25rem;
+        outline: none !important;
+        text-transform: none;
+    }
+
+    .btn-close:focus {
+        box-shadow: none;
+        color: #000;
+        text-decoration: none;
+        opacity: 0.75;
+    }
+
+    .btn-close:hover {
+        color: #000;
+        text-decoration: none;
+        opacity: 0.75;
+    }
+}
