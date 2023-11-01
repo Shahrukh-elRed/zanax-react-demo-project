@@ -1,4 +1,4 @@
-import PagesCommonHeader from "../../Components/PagesCommonHeader/PagesCommonHeader";
+import CardsCommonHeader from "./CardsCommonHeader/CardsCommonHeader";
 import "./cards.scss";
 import SimpleCardWithLinks from "./SimpleCardWithLinks/SimpleCardWithLinks";
 import SimpleCardWithHeaderAndButton from "./SimpleCardWithHeaderAndButton/SimpleCardWithHeaderAndButton";
@@ -37,7 +37,7 @@ const Cards = () => {
         <div className="main-content app-content mt-0">
             <div className="side-app">
                 <div className="main-container container-fluid">
-                    <PagesCommonHeader title="Cards" />
+                    <CardsCommonHeader title="Cards" />
                     <div className="row">
                         <SimpleCardWithLinks cardTitle="Card title" cardSubtitle="Card subtitle" 
                             cardText="Some quick example text to build on the card title and make up the bulk of the card's content." 

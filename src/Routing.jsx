@@ -5,6 +5,7 @@ import Dashboard from "./Pages/Dashboard/Dashboard";
 import Faq from "./Pages/Faq/Faq";
 import Services from "./Pages/Services/Services";
 import Cards from "./Pages/Cards/Cards";
+import Alerts from "./Pages/Alerts/Alerts";
 
 const Routing = () => {
     return (
@@ -16,6 +17,7 @@ const Routing = () => {
                 <Route path="/pages/faq" element={<Faq />} />
                 <Route path="/pages/services" element={<Services />} />
                 <Route path="/components/cards" element={<Cards />} />
+                <Route path="/elements/alerts" element={<Alerts />} />
             </Routes>
         </Router >
     )
