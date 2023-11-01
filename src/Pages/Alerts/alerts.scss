@@ -63,6 +63,16 @@
                 border-radius: 3px;
                 font-size: 0.9375rem;
             }
+
+            code {
+                background: #f2f3f9;
+                border: 1px solid #eaedf1;
+                border-radius: 3px;
+                padding: 3px;
+                font-size: 85%;
+                color: inherit;
+                word-break: break-word;
+            }
         }
 
         .text-wrap:last-child {
