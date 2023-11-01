@@ -6,7 +6,7 @@ const AlertWithAvatar = ({ color, text, avatarImage }) => {
 
     return (
         <>
-            {hideAlert ? null : <div className={`alert alert-${color} alert-dismissible`} role="alert">
+            {hideAlert ? null : <div className={`alert-avatar alert-${color} alert-dismissible`} role="alert">
                 <div className="av-img-container"><img src={avatarImage} alt="avatar" className="avatar-image" /></div><span className="alert-inner--text">{text}</span>
                 <button onClick={() => setHideAlert(true)} type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">×</span>

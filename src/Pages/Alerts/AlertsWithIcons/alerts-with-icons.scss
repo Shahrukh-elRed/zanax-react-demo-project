@@ -1,0 +1,63 @@
+.alert-primary {
+    color: #6259ca;
+    background-color: rgb(98 89 202 / 10%);
+    border-color: rgba(98, 89, 202, 0.01);
+}
+
+.alert-secondary {
+    color: #fb6b25;
+    background-color: #fce9df;
+    border-color: #fce9df;
+}
+
+.alert-success {
+    color: #09ad95;
+    background-color: rgba(0, 230, 130, 0.1);
+    border-color: rgb(202, 249, 228);
+}
+
+.alert-warning {
+    color: #7d6608;
+    background-color: #fcf3cf;
+    border-color: #fbeebc;
+}
+
+.alert-info {
+    color: #24587e;
+    background-color: #daeefc;
+    border-color: #cbe7fb;
+}
+
+.alert-danger {
+    color: #f82649;
+    background-color: rgba(255, 56, 43, 0.1);
+    border-color: rgb(255, 222, 219);
+}
+
+.alert-default {
+    background-color: #f9f7f7;
+}
+
+.alerts {
+    font-size: 0.9375rem;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+
+    .icon-alerts {
+        height: 15px;
+        margin-right: 0.25rem;
+        margin-bottom: 4px;
+    }
+}
+
+.alerts:last-child {
+    font-size: 0.9375rem;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0 !important;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}

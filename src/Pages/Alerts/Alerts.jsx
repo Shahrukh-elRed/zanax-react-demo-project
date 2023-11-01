@@ -5,6 +5,8 @@ import AlertWithIcon from "./AlertWithIcon/AlertWithIcon";
 import DefaultAlert from "./DefaultAlert/DefaultAlert";
 import LinksInAlert from "./LinksInAlert/LinksInAlert";
 import DummyImage from "./assets/images/dummy.jpg";
+import AlertsWithIcons from "./AlertsWithIcons/AlertsWithIcons";
+import AlertsWithIconsDismissing from "./AlertsWithIconsDismissing/AlertsWithIconsDismissing";
 
 const Alerts = () => {
     return (
@@ -93,6 +95,52 @@ const Alerts = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <div class="row">
+								<div class="col-xl-12">
+									<div class="card">
+										<div class="card-header">
+											<h3 class="card-title">Alerts With Icons</h3>
+										</div>
+										<div class="card-body">
+											<div class="text-wrap">
+												<div class="example">
+                                                <AlertsWithIcons icon="material-symbols:download" color="default" strongText="Default!"
+                                                    text="This is a warning alert—check it out that has an icon too!" />
+                                                <AlertsWithIcons icon="feather:check-square" color="primary" strongText="Primary!"
+                                                    text="This is a warning alert—check it out that has an icon too!" />
+                                                <AlertsWithIcons icon="feather:thumbs-up" color="success" strongText="Success!"
+                                                    text="This is a warning alert—check it out that has an icon too!" />
+                                                <AlertsWithIcons icon="feather:bell" color="info" strongText="Info!"
+                                                    text="This is a warning alert—check it out that has an icon too!" />
+                                                <AlertsWithIcons icon="fe:info" color="warning" strongText="Warning!"
+                                                    text="This is a warning alert—check it out that has an icon too!" />
+                                                <AlertsWithIcons icon="feather:slash" color="danger" strongText="Danger!"
+                                                    text="This is a warning alert—check it out that has an icon too!" />
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h3 class=" card-title mb-0">Alerts With Icons Dismissing</h3>
+										</div>
+										<div class="card-body">
+											<div class="text-wrap">
+												<div class="example">
+                                                <AlertsWithIconsDismissing color="default" strongText="Default!" text="This is a default alert—check it out!" icon="material-symbols:download" />
+                                                <AlertsWithIconsDismissing color="primary" strongText="Primary!" text="This is a default alert—check it out!" icon="feather:check-square" />
+                                                <AlertsWithIconsDismissing color="success" strongText="Success!" text="This is a default alert—check it out!" icon="feather:thumbs-up" />
+                                                <AlertsWithIconsDismissing color="warning" strongText="Warning!" text="This is a default alert—check it out!" icon="fe:info" />
+                                                <AlertsWithIconsDismissing color="info" strongText="Info!" text="This is a default alert—check it out!" icon="feather:bell" />
+                                                <AlertsWithIconsDismissing color="danger" strongText="Danger!" text="This is a default alert—check it out!" icon="feather:slash" />
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
 
 					</div>
                 </div>
