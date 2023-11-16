@@ -8,6 +8,7 @@ import DummyImage from "./assets/images/dummy.jpg";
 import AlertsWithIcons from "./AlertsWithIcons/AlertsWithIcons";
 import AlertsWithIconsDismissing from "./AlertsWithIconsDismissing/AlertsWithIconsDismissing";
 import AlertPopover from "./AlertPopover/AlertPopover";
+import AlertsStyle from "./AlertsStyle/AlertsStyle";
 
 const Alerts = () => {
     return (
@@ -57,16 +58,16 @@ const Alerts = () => {
                             </div>
 						</div>
 
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3 class="card-title">Alert with icon</h3>
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3 className="card-title">Alert with icon</h3>
                                     </div>
-                                    <div class="card-body">
-                                        <div class="text-wrap">
-                                            <p>Add <code class="highlighter-rouge">.alert-icon</code> class.</p>
-                                            <div class="example">
+                                    <div className="card-body">
+                                        <div className="text-wrap">
+                                            <p>Add <code className="highlighter-rouge">.alert-icon</code> class.</p>
+                                            <div className="example">
                                                 <AlertWithIcon icon="fa:check-circle-o" color="success" text="Well done! You successfully read this important alert message." />
                                                 <AlertWithIcon icon="fa:bell-o" color="info" text="Heads up! This alert needs your attention, but it's not super important." />
                                                 <AlertWithIcon icon="fa:exclamation" color="warning" text="Warning! Better check yourself, you're not looking too good." />
@@ -78,15 +79,15 @@ const Alerts = () => {
                             </div>
                         </div>
                         
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3 class="card-title">Alert with avatar</h3>
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3 className="card-title">Alert with avatar</h3>
                                     </div>
-                                    <div class="card-body">
-                                        <div class="text-wrap">
-                                            <div class="example">
+                                    <div className="card-body">
+                                        <div className="text-wrap">
+                                            <div className="example">
                                                 <AlertWithAvatar avatarImage={DummyImage} color="primary" 
                                                     text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit." />
                                                 <AlertWithAvatar avatarImage={DummyImage} color="success" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit." />
@@ -97,15 +98,15 @@ const Alerts = () => {
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3 class="card-title">Alerts With Icons</h3>
+                        <div className="row">
+                            <div className="col-xl-12">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3 className="card-title">Alerts With Icons</h3>
                                     </div>
-                                    <div class="card-body">
-                                        <div class="text-wrap">
-                                            <div class="example">
+                                    <div className="card-body">
+                                        <div className="text-wrap">
+                                            <div className="example">
                                             <AlertsWithIcons icon="material-symbols:download" color="default" strongText="Default!"
                                                 text="This is a warning alert—check it out that has an icon too!" />
                                             <AlertsWithIcons icon="feather:check-square" color="primary" strongText="Primary!"
@@ -122,13 +123,13 @@ const Alerts = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3 class=" card-title mb-0">Alerts With Icons Dismissing</h3>
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3 className=" card-title mb-0">Alerts With Icons Dismissing</h3>
                                     </div>
-                                    <div class="card-body">
-                                        <div class="text-wrap">
-                                            <div class="example">
+                                    <div className="card-body">
+                                        <div className="text-wrap">
+                                            <div className="example">
                                             <AlertsWithIconsDismissing color="default" strongText="Default!" text="This is a default alert—check it out!" icon="material-symbols:download" />
                                             <AlertsWithIconsDismissing color="primary" strongText="Primary!" text="This is a default alert—check it out!" icon="feather:check-square" />
                                             <AlertsWithIconsDismissing color="success" strongText="Success!" text="This is a default alert—check it out!" icon="feather:thumbs-up" />
@@ -142,16 +143,16 @@ const Alerts = () => {
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3 class="card-title">Alerts Popovers</h3>
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3 className="card-title">Alerts Popovers</h3>
                                     </div>
-                                    <div class="card-body">
-                                        <div class="text-wrap">
-                                            <div class="example">
-                                                <div class="row ms-0">
+                                    <div className="card-body">
+                                        <div className="text-wrap">
+                                            <div className="example">
+                                                <div className="row ms-0">
                                                     <AlertPopover buttonText="Show success" alertTitle="alert success" btnColor="success" popoverPlacement="bottom"
                                                         alertMessage="Well done! You successfully read this important alert message.." />
                                                     <AlertPopover buttonText="Show info" alertTitle="alert info" btnColor="info" popoverPlacement="top"
@@ -170,6 +171,20 @@ const Alerts = () => {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="col-md-12">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3 className="card-title">Alerts style</h3>
+                                    </div>
+                                    <div className="card-body">
+                                        <AlertsStyle title="Success Message" message="You successfully read this important alert message." color="success" />
+                                        <AlertsStyle title="Info Message" message="This alert needs your attention, but it's not super important." color="info" />
+                                        <AlertsStyle title="Warning Message" message="Best check yo self, you're not looking too good" color="warning" />
+                                        <AlertsStyle title="Danger Message" message="Change a few things up and try submitting again." color="danger" />
+                                    </div>
+                                </div>
+							</div>
                         </div>
 
 					</div>

@@ -1,0 +1,98 @@
+.example {
+    padding: 1.5rem;
+    border: 1px solid #eaedf1;
+    border-radius: 3px;
+    font-size: 0.9375rem;
+
+    .alert {
+        font-size: 0.9375rem;
+        position: relative;
+        padding: 0.75rem 1.25rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+    
+    .alert-success {
+        color: #09ad95;
+        background-color: rgba(0, 230, 130, 0.1);
+        border-color: rgb(202, 249, 228) !important;
+
+        hr {
+            border-top-color: rgba(9, 173, 149, 0.2) !important;
+            height: 1px;
+            margin-top: 0.8rem;
+            margin-bottom: 0.8rem;
+            border: 0;
+            border-top: 1px solid #eaedf1;
+            opacity: 1;
+            background-color: transparent;
+            box-sizing: content-box;
+            overflow: visible;
+            margin: 1rem 0;
+            color: inherit;
+        }
+    }
+
+    .alert-info {
+        color: #24587e;
+        background-color: #daeefc;
+        border-color: #cbe7fb;
+
+        hr {
+            border-top-color: #b3dcf9 !important;
+            height: 1px;
+            margin-top: 0.8rem;
+            margin-bottom: 0.8rem;
+            border: 0;
+            border-top: 1px solid #eaedf1;
+            opacity: 1;
+            background-color: transparent;
+            box-sizing: content-box;
+            overflow: visible;
+            margin: 1rem 0;
+            color: inherit;
+        }
+    }
+
+    .alert-warning {
+        color: #7d6608;
+        background-color: #fcf3cf;
+        border-color: #fbeebc;
+
+        hr {
+            border-top-color: #fae8a4 !important;
+            height: 1px;
+            margin-top: 0.8rem;
+            margin-bottom: 0.8rem;
+            border: 0;
+            border-top: 1px solid #eaedf1;
+            opacity: 1;
+            background-color: transparent;
+            box-sizing: content-box;
+            overflow: visible;
+            margin: 1rem 0;
+            color: inherit;
+        }
+    }
+
+    .alert-danger {
+        color: #f82649;
+        background-color: rgba(255, 56, 43, 0.1);
+        border-color: rgb(255, 222, 219);
+
+        hr {
+            border-top-color: #ecacab !important;
+            height: 1px;
+            margin-top: 0.8rem;
+            margin-bottom: 0.8rem;
+            border: 0;
+            border-top: 1px solid #eaedf1;
+            opacity: 1;
+            background-color: transparent;
+            box-sizing: content-box;
+            overflow: visible;
+            margin: 1rem 0;
+            color: inherit;
+        }
+    }
+}

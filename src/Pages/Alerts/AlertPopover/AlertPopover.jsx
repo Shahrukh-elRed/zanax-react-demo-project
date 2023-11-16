@@ -14,8 +14,8 @@ const AlertPopover = ({ buttonText, btnColor, alertTitle, alertMessage, popoverP
     })
 
     return (
-        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-2 mb-2">
-            <button ref={popoverRef} type="button" class={`btn-popover btn-block btn-${btnColor} d-grid`} >
+        <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-2 mb-2">
+            <button ref={popoverRef} type="button" className={`btn-popover btn-block btn-${btnColor} d-grid`} >
                 {buttonText}
             </button>
         </div>
