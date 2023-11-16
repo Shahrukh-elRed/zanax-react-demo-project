@@ -7,6 +7,7 @@ import LinksInAlert from "./LinksInAlert/LinksInAlert";
 import DummyImage from "./assets/images/dummy.jpg";
 import AlertsWithIcons from "./AlertsWithIcons/AlertsWithIcons";
 import AlertsWithIconsDismissing from "./AlertsWithIconsDismissing/AlertsWithIconsDismissing";
+import AlertPopover from "./AlertPopover/AlertPopover";
 
 const Alerts = () => {
     return (
@@ -97,50 +98,79 @@ const Alerts = () => {
                         </div>
 
                         <div class="row">
-								<div class="col-xl-12">
-									<div class="card">
-										<div class="card-header">
-											<h3 class="card-title">Alerts With Icons</h3>
-										</div>
-										<div class="card-body">
-											<div class="text-wrap">
-												<div class="example">
-                                                <AlertsWithIcons icon="material-symbols:download" color="default" strongText="Default!"
-                                                    text="This is a warning alert—check it out that has an icon too!" />
-                                                <AlertsWithIcons icon="feather:check-square" color="primary" strongText="Primary!"
-                                                    text="This is a warning alert—check it out that has an icon too!" />
-                                                <AlertsWithIcons icon="feather:thumbs-up" color="success" strongText="Success!"
-                                                    text="This is a warning alert—check it out that has an icon too!" />
-                                                <AlertsWithIcons icon="feather:bell" color="info" strongText="Info!"
-                                                    text="This is a warning alert—check it out that has an icon too!" />
-                                                <AlertsWithIcons icon="fe:info" color="warning" strongText="Warning!"
-                                                    text="This is a warning alert—check it out that has an icon too!" />
-                                                <AlertsWithIcons icon="feather:slash" color="danger" strongText="Danger!"
-                                                    text="This is a warning alert—check it out that has an icon too!" />
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="card">
-										<div class="card-header">
-											<h3 class=" card-title mb-0">Alerts With Icons Dismissing</h3>
-										</div>
-										<div class="card-body">
-											<div class="text-wrap">
-												<div class="example">
-                                                <AlertsWithIconsDismissing color="default" strongText="Default!" text="This is a default alert—check it out!" icon="material-symbols:download" />
-                                                <AlertsWithIconsDismissing color="primary" strongText="Primary!" text="This is a default alert—check it out!" icon="feather:check-square" />
-                                                <AlertsWithIconsDismissing color="success" strongText="Success!" text="This is a default alert—check it out!" icon="feather:thumbs-up" />
-                                                <AlertsWithIconsDismissing color="warning" strongText="Warning!" text="This is a default alert—check it out!" icon="fe:info" />
-                                                <AlertsWithIconsDismissing color="info" strongText="Info!" text="This is a default alert—check it out!" icon="feather:bell" />
-                                                <AlertsWithIconsDismissing color="danger" strongText="Danger!" text="This is a default alert—check it out!" icon="feather:slash" />
-												</div>
-											</div>
-										</div>
-									</div>
+                            <div class="col-xl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Alerts With Icons</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="text-wrap">
+                                            <div class="example">
+                                            <AlertsWithIcons icon="material-symbols:download" color="default" strongText="Default!"
+                                                text="This is a warning alert—check it out that has an icon too!" />
+                                            <AlertsWithIcons icon="feather:check-square" color="primary" strongText="Primary!"
+                                                text="This is a warning alert—check it out that has an icon too!" />
+                                            <AlertsWithIcons icon="feather:thumbs-up" color="success" strongText="Success!"
+                                                text="This is a warning alert—check it out that has an icon too!" />
+                                            <AlertsWithIcons icon="feather:bell" color="info" strongText="Info!"
+                                                text="This is a warning alert—check it out that has an icon too!" />
+                                            <AlertsWithIcons icon="fe:info" color="warning" strongText="Warning!"
+                                                text="This is a warning alert—check it out that has an icon too!" />
+                                            <AlertsWithIcons icon="feather:slash" color="danger" strongText="Danger!"
+                                                text="This is a warning alert—check it out that has an icon too!" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class=" card-title mb-0">Alerts With Icons Dismissing</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="text-wrap">
+                                            <div class="example">
+                                            <AlertsWithIconsDismissing color="default" strongText="Default!" text="This is a default alert—check it out!" icon="material-symbols:download" />
+                                            <AlertsWithIconsDismissing color="primary" strongText="Primary!" text="This is a default alert—check it out!" icon="feather:check-square" />
+                                            <AlertsWithIconsDismissing color="success" strongText="Success!" text="This is a default alert—check it out!" icon="feather:thumbs-up" />
+                                            <AlertsWithIconsDismissing color="warning" strongText="Warning!" text="This is a default alert—check it out!" icon="fe:info" />
+                                            <AlertsWithIconsDismissing color="info" strongText="Info!" text="This is a default alert—check it out!" icon="feather:bell" />
+                                            <AlertsWithIconsDismissing color="danger" strongText="Danger!" text="This is a default alert—check it out!" icon="feather:slash" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-								</div>
-							</div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Alerts Popovers</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="text-wrap">
+                                            <div class="example">
+                                                <div class="row ms-0">
+                                                    <AlertPopover buttonText="Show success" alertTitle="alert success" btnColor="success" popoverPlacement="bottom"
+                                                        alertMessage="Well done! You successfully read this important alert message.." />
+                                                    <AlertPopover buttonText="Show info" alertTitle="alert info" btnColor="info" popoverPlacement="top"
+                                                        alertMessage="Heads up! This alert needs your attention, but it's not super important..." />
+                                                    <AlertPopover buttonText="Show warning" alertTitle="alert warning" btnColor="warning" popoverPlacement="bottom"
+                                                        alertMessage="Warning! Best check yo self, you're not looking too good.." />
+                                                    <AlertPopover buttonText="Show danger" alertTitle="alert danger" btnColor="danger" popoverPlacement="bottom" 
+                                                        alertMessage="Oh snap! Change a few things up and try submitting again." />
+                                                    <AlertPopover buttonText="Show secondary" alertTitle="alert secondary" btnColor="secondary" popoverPlacement="top"
+                                                        alertMessage="Error! Please Check your email id.." />
+                                                    <AlertPopover buttonText="Show primary" alertTitle="alert primary" btnColor="primary" popoverPlacement="bottom"
+                                                        alertMessage="Cool! This alert will close in 3 seconds. The data-bs-delay attribute is in milliseconds." />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 					</div>
                 </div>
