@@ -6,6 +6,7 @@ import Faq from "./Pages/Faq/Faq";
 import Services from "./Pages/Services/Services";
 import Cards from "./Pages/Cards/Cards";
 import Alerts from "./Pages/Alerts/Alerts";
+import Dropdowns from "./Pages/Dropdowns/Dropdowns";
 
 const Routing = () => {
     return (
@@ -18,6 +19,7 @@ const Routing = () => {
                 <Route path="/pages/services" element={<Services />} />
                 <Route path="/components/cards" element={<Cards />} />
                 <Route path="/elements/alerts" element={<Alerts />} />
+                <Route path="/elements/dropdowns" element={<Dropdowns />} />
             </Routes>
         </Router >
     )
