@@ -1,5 +1,6 @@
 import DropdownsCommonHeader from "./DropdownsCommonHeader/DropdownsCommonHeader";
 import RoundedButtonDropdown from "./RoundedButtonDropdown/RoundedButtonDropdown";
+import RoundedOutlineButtonDropdown from "./RoundedOutlineButtonDropdown/RoundedOutlineButtonDropdown";
 import RoundedSplitButtonDropdown from "./RoundedSplitButtonDropdown/RoundedSplitButtonDropdown";
 import SingleButtonDropdown from "./SingleButtonDropdown/SingleButtonDropdown";
 import SingleSquareOutlineButtonDropdown from "./SingleSquareOutlineButtonDropdown/SingleSquareOutlineButtonDropdown";
@@ -136,6 +137,28 @@ const Dropdowns = () => {
                                         <SingleSquareOutlineButtonDropdown color="warning" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                         <SingleSquareOutlineButtonDropdown color="danger" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-12">
+                        <div className="card">
+                            <div className="card-header">
+                                <h3 className="card-title">Rounded button dropdowns</h3>
+                            </div>
+                            <div className="card-body">
+                                <div className="text-wrap">
+                                    <div className="example d-flex gap-1">
+                                        <RoundedOutlineButtonDropdown color="primary" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedOutlineButtonDropdown color="success" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedOutlineButtonDropdown color="info" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedOutlineButtonDropdown color="warning" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                     </div>
                                 </div>
