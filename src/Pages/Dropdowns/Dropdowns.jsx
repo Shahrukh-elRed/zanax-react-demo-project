@@ -1,5 +1,6 @@
 import DropdownsCommonHeader from "./DropdownsCommonHeader/DropdownsCommonHeader";
 import RoundedButtonDropdown from "./RoundedButtonDropdown/RoundedButtonDropdown";
+import RoundedSplitButtonDropdown from "./RoundedSplitButtonDropdown/RoundedSplitButtonDropdown";
 import SingleButtonDropdown from "./SingleButtonDropdown/SingleButtonDropdown";
 import SplitButtonDropdown from "./SplitButtonDropdown/SplitButtonDropdown";
 import { dropdownItems } from "./data";
@@ -84,6 +85,32 @@ const Dropdowns = () => {
                                         <SplitButtonDropdown color="warning" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                         <SplitButtonDropdown color="danger" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-12">
+                        <div className="card">
+                            <div className="card-header">
+                                <h3 className="card-title">Rounded Split button dropdowns</h3>
+                            </div>
+                            <div className="card-body">
+                                <div className="text-wrap">
+                                    <div className="example d-flex gap-1">
+                                        <RoundedSplitButtonDropdown leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitButtonDropdown color="primary" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitButtonDropdown color="success" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitButtonDropdown color="info" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitButtonDropdown color="warning" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitButtonDropdown color="danger" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                     </div>
                                 </div>
