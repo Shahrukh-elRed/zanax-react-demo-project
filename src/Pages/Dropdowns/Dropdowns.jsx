@@ -2,6 +2,7 @@ import DropdownsCommonHeader from "./DropdownsCommonHeader/DropdownsCommonHeader
 import RoundedButtonDropdown from "./RoundedButtonDropdown/RoundedButtonDropdown";
 import RoundedSplitButtonDropdown from "./RoundedSplitButtonDropdown/RoundedSplitButtonDropdown";
 import SingleButtonDropdown from "./SingleButtonDropdown/SingleButtonDropdown";
+import SingleSquareOutlineButtonDropdown from "./SingleSquareOutlineButtonDropdown/SingleSquareOutlineButtonDropdown";
 import SplitButtonDropdown from "./SplitButtonDropdown/SplitButtonDropdown";
 import { dropdownItems } from "./data";
 import "./dropdowns.scss";
@@ -111,6 +112,30 @@ const Dropdowns = () => {
                                         <RoundedSplitButtonDropdown color="warning" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                         <RoundedSplitButtonDropdown color="danger" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-12">
+                        <div className="card">
+                            <div className="card-header">
+                                <h3 className="card-title">Single Square outline button dropdowns</h3>
+                            </div>
+                            <div className="card-body">
+                                <div className="text-wrap">
+                                    <div className="example d-flex gap-1">
+                                        <SingleSquareOutlineButtonDropdown color="primary" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <SingleSquareOutlineButtonDropdown color="success" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <SingleSquareOutlineButtonDropdown color="info" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <SingleSquareOutlineButtonDropdown color="warning" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <SingleSquareOutlineButtonDropdown color="danger" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                     </div>
                                 </div>
