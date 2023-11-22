@@ -6,6 +6,7 @@ import RoundedSplitButtonDropdown from "./RoundedSplitButtonDropdown/RoundedSpli
 import RoundedSplitOutlineButtonDropdown from "./RoundedSplitOutlineButtonDropdown/RoundedSplitOutlineButtonDropdown";
 import SingleButtonDropdown from "./SingleButtonDropdown/SingleButtonDropdown";
 import SingleSquareOutlineButtonDropdown from "./SingleSquareOutlineButtonDropdown/SingleSquareOutlineButtonDropdown";
+import SocialIconButton from "./SocialIconButton/SocialIconButton";
 import SplitButtonDropdown from "./SplitButtonDropdown/SplitButtonDropdown";
 import SplitSquareOutlineButtonDropdown from "./SplitSquareOutlineButtonDropdown/SplitSquareOutlineButtonDropdown";
 import { dropUpItems, dropdownItems } from "./data";
@@ -228,6 +229,26 @@ const Dropdowns = () => {
                                         separatedLinkText="About us" separatedLinkAction={() => console.log("clicked about us")} />
                                     <DropupVariation color="info" buttonText="Dropup1" dropUpItems={dropUpItems} 
                                         separatedLinkText="About us" separatedLinkAction={() => console.log("clicked about us")} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-12">
+                        <div className="card">
+                            <div className="card-header">
+                                <h3 className="card-title">social Icon</h3>
+                            </div>
+                            <div className="card-body">
+                                <div className="example">
+                                    <div className="p-0 d-flex gap-1">
+                                        <SocialIconButton socialIconType="facebook" />
+                                        <SocialIconButton socialIconType="twitter" />
+                                        <SocialIconButton socialIconType="google" />
+                                        <SocialIconButton socialIconType="youtube" />
+                                        <SocialIconButton socialIconType="vimeo" />
+                                        <SocialIconButton socialIconType="github" />
+                                    </div> 
                                 </div>
                             </div>
                         </div>
