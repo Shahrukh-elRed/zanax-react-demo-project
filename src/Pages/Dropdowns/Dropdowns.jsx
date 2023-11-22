@@ -1,4 +1,5 @@
 import DropdownsCommonHeader from "./DropdownsCommonHeader/DropdownsCommonHeader";
+import DropupVariation from "./DropupVariation/DropupVariation";
 import RoundedButtonDropdown from "./RoundedButtonDropdown/RoundedButtonDropdown";
 import RoundedOutlineButtonDropdown from "./RoundedOutlineButtonDropdown/RoundedOutlineButtonDropdown";
 import RoundedSplitButtonDropdown from "./RoundedSplitButtonDropdown/RoundedSplitButtonDropdown";
@@ -7,7 +8,7 @@ import SingleButtonDropdown from "./SingleButtonDropdown/SingleButtonDropdown";
 import SingleSquareOutlineButtonDropdown from "./SingleSquareOutlineButtonDropdown/SingleSquareOutlineButtonDropdown";
 import SplitButtonDropdown from "./SplitButtonDropdown/SplitButtonDropdown";
 import SplitSquareOutlineButtonDropdown from "./SplitSquareOutlineButtonDropdown/SplitSquareOutlineButtonDropdown";
-import { dropdownItems } from "./data";
+import { dropUpItems, dropdownItems } from "./data";
 import "./dropdowns.scss";
 
 const Dropdowns = () => {
@@ -211,6 +212,22 @@ const Dropdowns = () => {
                                         <RoundedSplitOutlineButtonDropdown color="danger" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-12">
+                        <div className="card">
+                            <div className="card-header">
+                                <h3 className="card-title">Dropup variation</h3>
+                            </div>
+                            <div className="card-body">
+                                <div className="example d-flex gap-1">
+                                    <DropupVariation color="primary" buttonText="Dropup1" dropUpItems={dropUpItems} 
+                                        separatedLinkText="About us" separatedLinkAction={() => console.log("clicked about us")} />
+                                    <DropupVariation color="info" buttonText="Dropup1" dropUpItems={dropUpItems} 
+                                        separatedLinkText="About us" separatedLinkAction={() => console.log("clicked about us")} />
                                 </div>
                             </div>
                         </div>

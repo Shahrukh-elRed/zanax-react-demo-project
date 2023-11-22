@@ -1,0 +1,93 @@
+.btn-default, .btn-default:hover, .btn-default:focus {
+    color: #292828;
+    background: #f6f4fb;
+    border-color: #e9f1f9;
+    letter-spacing: 0.03em;
+    font-size: 0.8125rem;
+    min-width: 2.375rem;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background: #6259ca !important;
+    border-color: #6259ca !important;
+    letter-spacing: 0.03em;
+    font-size: 0.8125rem;
+    min-width: 2.375rem;
+}
+
+.btn-success {
+    color: #fff;
+    background: #13bfa6 !important;
+    border-color: #35b9a6;
+    letter-spacing: 0.03em;
+    font-size: 0.8125rem;
+    min-width: 2.375rem;
+}
+
+.btn-info {
+    color: #fff !important;
+    background: #45aaf2 !important;
+    border-color: #469fde !important;
+    letter-spacing: 0.03em;
+    font-size: 0.8125rem;
+    min-width: 2.375rem;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background: #f7b731 !important;
+    border-color: #e5a623;
+    letter-spacing: 0.03em;
+    font-size: 0.8125rem;
+    min-width: 2.375rem;
+}
+
+.btn-danger {
+    color: #fff;
+    background: #f82649 !important;
+    border-color: #e62a45;
+    letter-spacing: 0.03em;
+    font-size: 0.8125rem;
+    min-width: 2.375rem;
+}
+
+.dropdown-menu {
+    border: 1px solid #eaf2f6;
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+    border-radius: 5px;
+    min-width: 12rem;
+    z-index: 8;
+    float: left;
+    padding: 5px 0;
+    list-style: none;
+    font-size: 14px;
+    background-color: #fff;
+    background-clip: padding-box;
+    color: #495057;
+    text-align: left;
+
+    .dropdown-link {
+        cursor: pointer;
+        display: block;
+        padding: 8px 20px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.428571429;
+        color: #76839a;
+        white-space: nowrap;
+    }
+
+    .dropdown-link:hover, .dropdown-link:focus, .active-link {
+        text-decoration: none;
+        color: #76839a;
+        background-color: rgb(98 89 202 / 10%);
+    }
+
+    .divider {
+        height: 1px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #eaedf1;
+    }
+}
