@@ -2,6 +2,7 @@ import DropdownsCommonHeader from "./DropdownsCommonHeader/DropdownsCommonHeader
 import RoundedButtonDropdown from "./RoundedButtonDropdown/RoundedButtonDropdown";
 import RoundedOutlineButtonDropdown from "./RoundedOutlineButtonDropdown/RoundedOutlineButtonDropdown";
 import RoundedSplitButtonDropdown from "./RoundedSplitButtonDropdown/RoundedSplitButtonDropdown";
+import RoundedSplitOutlineButtonDropdown from "./RoundedSplitOutlineButtonDropdown/RoundedSplitOutlineButtonDropdown";
 import SingleButtonDropdown from "./SingleButtonDropdown/SingleButtonDropdown";
 import SingleSquareOutlineButtonDropdown from "./SingleSquareOutlineButtonDropdown/SingleSquareOutlineButtonDropdown";
 import SplitButtonDropdown from "./SplitButtonDropdown/SplitButtonDropdown";
@@ -184,6 +185,30 @@ const Dropdowns = () => {
                                         <SplitSquareOutlineButtonDropdown color="warning" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                         <SplitSquareOutlineButtonDropdown color="danger" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-12">
+                        <div className="card">
+                            <div className="card-header">
+                                <h3 className="card-title">Rounded Split button dropdowns</h3>
+                            </div>
+                            <div className="card-body">
+                                <div className="text-wrap">
+                                    <div className="example d-flex gap-1">
+                                        <RoundedSplitOutlineButtonDropdown color="primary" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitOutlineButtonDropdown color="success" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitOutlineButtonDropdown color="info" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitOutlineButtonDropdown color="warning" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <RoundedSplitOutlineButtonDropdown color="danger" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                     </div>
                                 </div>
