@@ -5,6 +5,7 @@ import RoundedSplitButtonDropdown from "./RoundedSplitButtonDropdown/RoundedSpli
 import SingleButtonDropdown from "./SingleButtonDropdown/SingleButtonDropdown";
 import SingleSquareOutlineButtonDropdown from "./SingleSquareOutlineButtonDropdown/SingleSquareOutlineButtonDropdown";
 import SplitButtonDropdown from "./SplitButtonDropdown/SplitButtonDropdown";
+import SplitSquareOutlineButtonDropdown from "./SplitSquareOutlineButtonDropdown/SplitSquareOutlineButtonDropdown";
 import { dropdownItems } from "./data";
 import "./dropdowns.scss";
 
@@ -159,6 +160,30 @@ const Dropdowns = () => {
                                         <RoundedOutlineButtonDropdown color="info" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                         <RoundedOutlineButtonDropdown color="warning" buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-12">
+                        <div className="card">
+                            <div className="card-header">
+                                <h3 className="card-title">Split button dropdowns</h3>
+                            </div>
+                            <div className="card-body">
+                                <div className="text-wrap">
+                                    <div className="example d-flex gap-1">
+                                        <SplitSquareOutlineButtonDropdown color="primary" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <SplitSquareOutlineButtonDropdown color="success" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <SplitSquareOutlineButtonDropdown color="info" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <SplitSquareOutlineButtonDropdown color="warning" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
+                                            separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                        <SplitSquareOutlineButtonDropdown color="danger" leftButtonAction={() => console.log("Clicked Action")} buttonText="Action" dropdownHeader="Dropdown" dropdownItems={dropdownItems} 
                                             separatedLinkText="Separated link" separatedLinkAction={() => console.log("Clicked Separated link")} />
                                     </div>
                                 </div>
