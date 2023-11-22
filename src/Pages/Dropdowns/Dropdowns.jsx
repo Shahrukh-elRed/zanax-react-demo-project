@@ -1,5 +1,6 @@
 import DropdownsCommonHeader from "./DropdownsCommonHeader/DropdownsCommonHeader";
 import DropupVariation from "./DropupVariation/DropupVariation";
+import IconDropDown from "./IconDropDown/IconDropDown";
 import RoundedButtonDropdown from "./RoundedButtonDropdown/RoundedButtonDropdown";
 import RoundedOutlineButtonDropdown from "./RoundedOutlineButtonDropdown/RoundedOutlineButtonDropdown";
 import RoundedSplitButtonDropdown from "./RoundedSplitButtonDropdown/RoundedSplitButtonDropdown";
@@ -253,6 +254,28 @@ const Dropdowns = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="col-md-12">
+									<div className="card">
+										<div className="card-header">
+											<h3 className="card-title">Icon Drop Downs dropdowns</h3>
+										</div>
+										<div className="card-body">
+											<div className="example">
+												<div className="p-0 d-flex gap-1">
+                                                    <IconDropDown color="primary" icon="cog" dropdownHeader="Dropdown" dropdownItems={dropdownItems} separatedLinkText="Separated link" 
+                                                        separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                                    <IconDropDown color="primary" icon="ellipsis-h" dropdownHeader="Dropdown" dropdownItems={dropdownItems} separatedLinkText="Separated link" 
+                                                        separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                                    <IconDropDown color="primary" icon="ellipsis-v" dropdownHeader="Dropdown" dropdownItems={dropdownItems} separatedLinkText="Separated link" 
+                                                        separatedLinkAction={() => console.log("Clicked Separated link")} />
+                                                    <IconDropDown color icon="chain" dropdownHeader="Dropdown" dropdownItems={dropdownItems} separatedLinkText="Separated link" 
+                                                        separatedLinkAction={() => console.log("Clicked Separated link")} />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 
                 </div>
             </div>
