@@ -28,6 +28,8 @@ const TooltipAndPopover = () => {
 											<div class="row ">
                                                 <DefaultStaticTooltip text="Tooltip on the top" position="top" />
                                                 <DefaultStaticTooltip text="Tooltip on the top" position="bottom" />
+                                                <DefaultStaticTooltip text="Tooltip on the top" position="start" />
+                                                <DefaultStaticTooltip text="Tooltip on the top" position="end" />
                                             </div>
                                         </div>
                                     </div>

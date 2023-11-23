@@ -19,8 +19,7 @@
     font-size: 0.875rem;
     word-wrap: break-word;
 
-    .tooltip-arrow-top {
-        left: 50%;
+    .tooltip-arrow {
         margin-left: -2px;
         position: absolute;
         display: block;
@@ -29,11 +28,21 @@
     }
 
     .tooltip-arrow-top {
-        top: 100%;
+        left: 50%;
     }
 
     .tooltip-arrow-bottom {
-        top: 0;
+        left: 50%;
+    }
+
+    .tooltip-arrow-start {
+        right: -11%;
+        top: 8px;
+    }
+
+    .tooltip-arrow-end {
+        left: -10%;
+        top: 8px;
     }
 
     .tooltip-inner {
