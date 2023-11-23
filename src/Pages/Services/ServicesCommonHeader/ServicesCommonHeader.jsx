@@ -16,7 +16,7 @@ const ServicesCommonHeader = ({ title }) => {
             <li className="text-capitalize breadcrumb-item active" aria-current="page">{breadcrumbs[breadcrumbs.length - 1]}</li>
         </ol>
     </div>
-    <div className="ms-auto pageheader-btn">
+    <div className="ms-auto pageheader-btn d-flex">
         <button onClick={() => console.log("add account")} className="btn btn-primary btn-icon text-white me-2">
             <span>
                 <Icon icon="mdi:plus" color="#fff" />
