@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./tabs-style-one.scss";
+import "./tabs-style-two.scss";
 
-const TabsStyleOne = ({ tabsStyleData }) => {
+const TabsStyleTwo = ({ tabsStyleData }) => {
     const [activeTab, setActiveTab] = useState(0);
     return (
         <div>
@@ -10,7 +10,7 @@ const TabsStyleOne = ({ tabsStyleData }) => {
                     <ul className="nav panel-tabs">
                         {tabsStyleData?.map((item, index) => 
                             <li key={item?.id} onClick={() => setActiveTab(index)}>
-                                <div className={`tabs-top ${activeTab === index ? "active-tab" : ""}`}  data-bs-toggle="tab">{item?.tabTitle}</div>
+                                <div className={`tabs-top-style-two ${activeTab === index ? "active-tab-style-two" : ""}`}  data-bs-toggle="tab">{item?.tabTitle}</div>
                             </li>)}
                     </ul>
                 </div>
@@ -29,4 +29,4 @@ const TabsStyleOne = ({ tabsStyleData }) => {
     )
 }
 
-export default TabsStyleOne;
+export default TabsStyleTwo;

@@ -14,20 +14,20 @@
         padding: 0px;
         margin: 0px;
 
-        .active-tab {
+        .active-tab-style-two {
             background-color: rgb(98 89 202 / 10%);
             border-radius: 5px;
             color: #6259ca;
             cursor: pointer;
+            border-bottom: 3px solid #6259ca;
         }
 
-        .tabs-top {
-            padding: 10px 12px 11px 13px;
+        .tabs-top-style-two {
+            padding: 10px 20px 11px;
             display: block;
-            margin-right: 0.25rem !important;
         }
 
-        .tabs-top:hover {
+        .tabs-top-style-two:hover {
             background-color: rgb(98 89 202 / 10%);
             border-radius: 5px;
             color: #6259ca;

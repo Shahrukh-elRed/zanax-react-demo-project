@@ -2,6 +2,7 @@ import "./tabs.scss";
 import TabsCommonHeader from './TabsCommonHeader/TabsCommonHeader';
 import TabsStyleOne from "./TabsStyleOne/TabsStyleOne";
 import { tabsStyleData } from "./data";
+import TabsStyleTwo from "./TabsStyleTwo/TabsStyleTwo";
 
 const Tabs = () => {
     return (
@@ -18,6 +19,17 @@ const Tabs = () => {
                                 </div>
                                 <div className="card-body p-6">
                                     <TabsStyleOne tabsStyleData={tabsStyleData} />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-6">
+                            <div className="card">
+                                <div className="card-header">
+                                    <h3 className="card-title">Tabs style</h3>
+                                </div>
+                                <div className="card-body p-6">
+                                    <TabsStyleTwo tabsStyleData={tabsStyleData} />
                                 </div>
                             </div>
                         </div>
