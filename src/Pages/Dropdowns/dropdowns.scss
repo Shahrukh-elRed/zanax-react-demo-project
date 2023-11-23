@@ -51,37 +51,6 @@
         margin: 0;
         position: relative;
         padding: 25px;
-
-        .text-wrap {
-            font-size: 14px;
-            line-height: 1.66;
-            white-space: normal !important;
-
-            .example {
-                padding: 1.5rem;
-                border: 1px solid #eaedf1;
-                border-radius: 3px;
-                font-size: 0.9375rem;
-            }
-
-            code {
-                background: #f2f3f9;
-                border: 1px solid #eaedf1;
-                border-radius: 3px;
-                padding: 3px;
-                font-size: 85%;
-                color: inherit;
-                word-break: break-word;
-            }
-        }
-
-        .text-wrap:last-child {
-            margin-bottom: 0;
-        }
-
-        .text-wrap:first-child {
-            margin-top: 0;
-        }
     }
 
     .card-body:last-child {
