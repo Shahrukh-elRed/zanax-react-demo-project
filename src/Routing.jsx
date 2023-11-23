@@ -7,6 +7,7 @@ import Services from "./Pages/Services/Services";
 import Cards from "./Pages/Cards/Cards";
 import Alerts from "./Pages/Alerts/Alerts";
 import Dropdowns from "./Pages/Dropdowns/Dropdowns";
+import Tabs from "./Pages/Tabs/Tabs";
 
 const Routing = () => {
     return (
@@ -20,6 +21,7 @@ const Routing = () => {
                 <Route path="/components/cards" element={<Cards />} />
                 <Route path="/elements/alerts" element={<Alerts />} />
                 <Route path="/elements/dropdowns" element={<Dropdowns />} />
+                <Route path="/advanced-elements/tabs" element={<Tabs />} />
             </Routes>
         </Router >
     )
