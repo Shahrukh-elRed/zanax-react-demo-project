@@ -34,35 +34,40 @@
         margin-bottom: 14px;
     }
 
-    .btn-primary {
-        color: #fff !important;
-        background: #6259ca !important;
-        border-color: #6259ca !important;
-        font-size: 13px !important;
-    }
+    .img-card-btn {
+        display: flex;
+        justify-content: center;
 
-    .btn-primary:hover {
-        opacity: 0.8;
-    }
+        .btn-primary {
+            color: #fff !important;
+            background: #6259ca !important;
+            border-color: #6259ca !important;
+            font-size: 13px !important;
+        }
+        
+        .btn-primary:hover {
+            opacity: 0.8;
+        }
 
-    .btn-secondary {
-        color: #fff !important;
-        background: #fb6b25 !important;
-        font-size: 13px !important;
-    }
+        .btn-secondary {
+            color: #fff !important;
+            background: #fb6b25 !important;
+            font-size: 13px !important;
+        }
 
-    .btn-success {
-        color: #fff !important;
-        background: #13bfa6 !important;
-        border-color: #35b9a6;
-        font-size: 13px !important;
-    }
+        .btn-success {
+            color: #fff !important;
+            background: #13bfa6 !important;
+            border-color: #35b9a6;
+            font-size: 13px !important;
+        }
 
-    .btn-danger {
-        color: #fff !important;
-        background: #f82649 !important;
-        border-color: #e62a45;
-        font-size: 13px !important;
+        .btn-danger {
+            color: #fff !important;
+            background: #f82649 !important;
+            border-color: #e62a45;
+            font-size: 13px !important;
+        }
     }
 
     .btn {
