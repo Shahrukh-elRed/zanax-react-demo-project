@@ -15,7 +15,7 @@ const TabsStyleOne = ({ tabsStyleData }) => {
                     </ul>
                 </div>
             </div>
-            <div className="panel-bod-tabs tabs-menu-body">
+            <div className="panel-body-tabs tabs-menu-body">
                 <div className="tab-content">
                 {tabsStyleData?.map((item, index) =>
                         <div key={item?.id} className={`tab-pane ${activeTab === index ? "active" : ""}`} id="tab1">
