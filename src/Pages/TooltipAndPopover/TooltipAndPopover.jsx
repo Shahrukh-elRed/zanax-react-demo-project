@@ -25,7 +25,7 @@ const TooltipAndPopover = () => {
                                             Static Example
                                         </div>
                                         <div class="tooltip-static-demo mb-4 border br-3">
-											<div class="row ">
+											<div class="row">
                                                 <DefaultStaticTooltip text="Tooltip on the top" position="top" />
                                                 <DefaultStaticTooltip text="Tooltip on the top" position="bottom" />
                                                 <DefaultStaticTooltip text="Tooltip on the top" position="start" />
