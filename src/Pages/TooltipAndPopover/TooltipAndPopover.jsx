@@ -1,4 +1,5 @@
 import DefaultStaticTooltip from "./DefaultStaticTooltip/DefaultStaticTooltip";
+import DefaultTooltipExample from "./DefaultTooltipExample/DefaultTooltipExample";
 import "./tooltip-and-popover.scss";
 import TooltipCommonHeader from "./TooltipCommonHeader/TooltipCommonHeader"
 
@@ -27,9 +28,9 @@ const TooltipAndPopover = () => {
                                         <div className="tooltip-static-demo mb-4 border br-3">
 											<div className="row">
                                                 <DefaultStaticTooltip text="Tooltip on the top" position="top" />
-                                                <DefaultStaticTooltip text="Tooltip on the top" position="bottom" />
-                                                <DefaultStaticTooltip text="Tooltip on the top" position="start" />
-                                                <DefaultStaticTooltip text="Tooltip on the top" position="end" />
+                                                <DefaultStaticTooltip text="Tooltip on the bottom" position="bottom" />
+                                                <DefaultStaticTooltip text="Tooltip on the left" position="start" />
+                                                <DefaultStaticTooltip text="Tooltip on the right" position="end" />
                                             </div>
                                         </div>
 
@@ -38,18 +39,10 @@ const TooltipAndPopover = () => {
                                         </div>
                                         <div className="bg-light p-3 border br-3">
                                             <div className="row text-center">
-                                                <div className="col-sm-6 col-lg-3 mt-2 mb-2">
-                                                    <button className="btn btn-primary" data-bs-placement="top" data-bs-toggle="tooltip" title="Tooltip on top" >Hover me</button>
-                                                </div>
-                                                <div className="col-sm-6 col-lg-3  mt-2 mb-2">
-                                                    <button className="btn btn-primary" data-bs-placement="bottom" data-bs-toggle="tooltip" title="Tooltip on Bottom" >Hover me</button>
-                                                </div>
-                                                <div className="col-sm-6 col-lg-3  mt-2 mb-2">
-                                                    <button className="btn btn-primary" data-bs-placement="left" data-bs-toggle="tooltip" title="Tooltip on left" >Hover me</button>
-                                                </div>
-                                                <div className="col-sm-6 col-lg-3  mt-2 mb-2">
-                                                    <button className="btn btn-primary" data-bs-placement="right" data-bs-toggle="tooltip" title="Tooltip on right" >Hover me</button>
-                                                </div>
+                                                <DefaultTooltipExample text="Tooltip on top" position="top" />
+                                                {/* <DefaultTooltipExample text="Tooltip on bottom" position="bottom" />
+                                                <DefaultTooltipExample text="Tooltip on left" position="start" />
+                                                <DefaultTooltipExample text="Tooltip on right" position="end" /> */}
                                             </div>
                                         </div>
 
